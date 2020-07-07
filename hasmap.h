@@ -21,8 +21,6 @@ typedef struct
 
 typedef Hashmap *Hashmap_ptr;
 
-typedef int (*Comparer)(void *, void *);
-
 Hashmap_ptr create_hashmap(int length);
 Hash_ptr create_hash(void *key, void *value);
 int hash_function(void *key, int size);
